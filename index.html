@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Herben Manzon | Developer Portfolio</title>
-<!-- herben -->
+
 		<!-- BootStrap Link -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -15,324 +15,403 @@
 		<!-- External CSS -->
 		<link rel="stylesheet" type="text/css" href="index.css">
 
-		<!-- Google Fonts -->
+		<!-- Google Fonts -->	
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
-
 	</head>
 
-	<body >
+	<body>
+<!-- -----------------Homepage Start ------------------------- -->
+		<section class="header d-none d-md-block" id="header">
+		    <nav class="d-md-flex justify-content-between align-items-center pt-2 img-fluid d-none" id="nav-lg-md">
+		        <a href="index.html" class="logo-header"><img src="images/logo-hp.png" width="100"></a>
+		        <div class="nav-links" id="nav-links">
+		            <ul class="pt-3">
+		                <li class="d-inline-block list-inline"><a href="#header" class="menu"><span></span>HOME</a></li>
+		                <li class="d-inline-block list-inline"><a href="#projects" class="menu"><span></span>PROJECTS</a></li>
+		                <li class="d-inline-block list-inline"><a href="#tools" class="menu"><span></span>TOOLS</a></li>
+		                <li class="d-inline-block list-inline"><a href="#contacts" class="menu"><span></span>CONTACT</a></li>
+		            </ul>
+		        </div>
+		    </nav>
 
-			<nav class="container d-none d-lg-block fixed-top" id="nav-lg-device">
-				<div class="row justify-content-between align-items-center text-white" id="div-lg-device">
+		    <div class="text-box d-md-flex d-none justify-content-center align-items-center">
+		        <div class="p-5">
+		            <img class="rounded-circle img-fluid" src="images/hpicon.jpg" width="400" id="creator-img">
+		        </div>
+		        <div>
+		            <h2>Herben Manzon</h2>
+		            <h3>Web Developer</h3>
+		            <p>Through my work, I aim to leave a lasting impact, making the web a more engaging, user-friendly, and interconnected space for all.</p>
+		        </div>
+		    </div>
+		</section>
 
-					<div id="menu-left" class="col-auto text-left">
-						<a href="#landing-page" class="px-5 text-white a">Home</a>
-						<a href="#projects" class="px-5 text-white a">Projects</a>		
-					</div>
 
-					<div id="lg-icon" class="col-auto justify-content-between align-items-center">
-						<p>Herben</p>
-					</div>
+		    <!-- mobile -->
+		<section class="header-mob d-md-none">
+		    <nav class="navbar navbar-expand-lg bg-body-tertiary d-md-none" id="nav-mobile">
+		        <div class="container-fluid">
+		            <a class="navbar-brand" href="#header"><img src="images/logo-hp.png" width="100"></a>
+		            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+		                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		                <span class="navbar-toggler-icon"></span>
+		            </button>
+		            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		                <div class="navbar-nav">
+		                    <a class="nav-link active" href="#projects">Projects</a>
+		                    <a class="nav-link active" href="#tools">Tools</a>
+		                    <a class="nav-link active" href="#contacts">Contact</a>
+		                </div>
+		            </div>
+		        </div>
+		    </nav>
 
-					<div id="menu-right" class="col-auto text-right">
-						<a href="#tools" class="px-5 text-white a">Tools</a>
-						<a href="#contacts" class="px-5 text-white a">Contacts</a>		
-					</div>
+		    <div class="text-box-mobile d-md-none text-center" id="">
+		        <div class="px-5 pt-3">
+		            <img class="rounded-circle img-fluid" src="images/hpicon.jpg" width="400">
+		        </div>
+		        <div class="">
+		            <h2 class="px-2">Herben Manzon</h2>
+		            <h3>Web Developer</h3>
+		            <p class="px-3 pb-3 mb-0">Through my work, I aim to leave a lasting impact, making the web a more engaging, user-friendly, and interconnected space for all.</p>
+		        </div>
+		    </div>
+		</section>
+
+<!-- -----------------Homepage End ------------------------- -->
+
+
+<!-- -----------------Projects Start ----------------------- -->
+
+
+		<section class="container-fluid projects text-center"  id="projects">
+			<h1 class="pt-5">Projects</h1>
+
+			<div class="mt-5 d-md-flex container justify-content-center">		
+				<div class="d-inline-block project-col cards text-center text-white"  data-bs-toggle="modal" data-bs-target="#onlinebookingmodal1" data-bs-whatever="@fat">
+					<h3>Online Booking System</h3>
+					<p>An online booking system is a digital platform that allows users to make reservations, appointments, or bookings over the internet. It is commonly used in various industries, including hospitality, healthcare, travel, and more.</p>
 				</div>
-			</nav>		
-
-
-
-			<nav class="navbar navbar-expand-lg navbar-dark d-lg-none " id="nav-mobile">
-				<div class="container text-white">
-
-					<a class="navbar-brand" href="#creator-details" id="icon-nav">Herben</a>
-
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
-						<div class="navbar-nav">
-							<a class="nav-link text-white" aria-current="page" href="#landing-page">Home</a>
-							<a class="nav-link text-white" href="#projects">Projects</a>
-							<a class="nav-link text-white" href="#tools">Tools</a>
-							<a class="nav-link text-white" href="#contacts">Contacts</a>
-						</div>
-					</div>
+				<div class="d-inline-block project-col cards text-center text-white" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="@fat">
+					<h3>  Real Estate Listings</h3>
+					<p>A Real Estate Listings website is an online platform that serves as a marketplace for buying, selling, and renting properties. It connects property buyers, sellers, and renters, providing them with a convenient and efficient way to browse and showcase real estate listings. </p>
 				</div>
-			</nav>
-
-
-			<!-- Landing page Start -->
-			<div class=" container text-center pt-5" id="landing-page">
-
-				<div class="container  text-white d-lg-none" id="creator-details">
-					<div class="text-center">
-						<img class="rounded-circle" src="images/hpicon.jpg" width="250">
-						<h2 class="mt-2">Herben Manzon</h2>
-						<h4>Web Developer</h4>
-						<p>Through my work, I aim to leave a lasting impact, making the web a more engaging, user-friendly, and interconnected space for all.</p>
-					</div>
-				</div>    
-
-				<div class="container-fluid d-none d-lg-block " id="homepage">
-					<div class="row text-center text-white d-flex justify-content-center align-items-center ">
-
-						<img class="rounded-circle img-fluid col-6" src="images/hpicon.jpg" width="250" id="creator-img">
-
-						<div class=" col-6">
-							<h2>Herben Manzon</h2>
-							<h3>Web Developer</h3>
-							<p >Through my work, I aim to leave a lasting impact, making the web a more engaging, user-friendly, and interconnected space for all.</p>
-						</div>
-					</div>
+				<div class="d-inline-block project-col cards text-center text-white"data-bs-toggle="modal" data-bs-target="#e-commerce-modal" data-bs-whatever="@fat">
+					<h3>E-commerce Platforms</h3>
+					<p>An E-commerce Platforms website is an online marketplace that facilitates the buying and selling of products and services over the internet. These platforms provide businesses and individuals with the tools and infrastructure to set up, manage, and scale their online stores. </p>
 				</div>
-
 			</div>
-			<!-- Landing page End -->
 
 
-			<!-- Project page Start -->
 
-			<div id="projects" class="container">
-			    <div class="d-flex justify-content-center text-white ">
-			        <h2 class="text-center">Projects</h2>
-			    </div>
+			<!-- Modals Start -->
+			<!-- online booking modal -->
+			<div class="modal fade" id = "onlinebookingmodal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl modal-dialog-scrollable">
+					<div class="modal-content">
 
-			    <div class="container-fluid  ">
-			        <div class="row justify-content-center mt-5 pb-5">
-			        	
-			            <div class="col-auto cards card1 text-center text-white"  data-bs-toggle="modal" data-bs-target="#onlinebookingmodal" data-bs-whatever="@fat">
-
-			                <h5 class="py-5 text-info">Online Booking System</h5>
-			                <p>An online booking system is a digital platform that allows users to make reservations, appointments, or bookings over the internet. It is commonly used in various industries, including hospitality, healthcare, travel, and more.</p>
-			            </div>	            
-
-			            <div class="col-auto cards card2 text-center text-white" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="@fat">
-			                <h5 class="py-5 text-info">Real Estate Listings</h5>
-			                <p>A Real Estate Listings website is an online platform that serves as a marketplace for buying, selling, and renting properties. It connects property buyers, sellers, and renters, providing them with a convenient and efficient way to browse and showcase real estate listings. </p>
-			            </div>
-
-			            <div class="col-auto cards card3 text-center text-white"data-bs-toggle="modal" data-bs-target="#e-commercemodal" data-bs-whatever="@fat">
-			                <h5 class="py-5 text-info">E-commerce Platforms</h5>
-			                <p>An E-commerce Platforms website is an online marketplace that facilitates the buying and selling of products and services over the internet. These platforms provide businesses and individuals with the tools and infrastructure to set up, manage, and scale their online stores. </p>
-			            </div>
-
-			            <!-- Modals -->
-			            <!-- online booking modal -->
-						<div class="modal fade" id="onlinebookingmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-xl modal-dialog-scrollable">
-								<div class="modal-content">
-
-									<div class="modal-header">
-										<h1 class="modal-title fs-5" id="exampleModalLabel">Online Booking System</h1>
-										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Online Booking System</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
 
 
-									<div class="modal-body container">
-										<div class="row justify-content-center">
-											<div class="col-auto">
-												<img src="images/modalcard2img1.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard2img2.jpg " class="img-fluid">
-											</div>
-										</div>
-									</div>
-
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-									</div>
+						<div class="modal-body container">
+							<div class="row justify-content-center">
+								<div class="col-auto">
+									<img src="images/modalcard2img1.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard2img2.jpg " class="img-fluid">
 								</div>
 							</div>
 						</div>
 
-			            <!-- real estate modal -->
-						<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-xl modal-dialog-scrollable">
-								<div class="modal-content">
-
-									<div class="modal-header">
-										<h1 class="modal-title fs-5" id="exampleModalLabel">Real Estate Listings</h1>
-										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>						
+							<button type="button" class="btn btn-primary">Visit Website</button>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
-									<div class="modal-body container">
-										<div class="row justify-content-center">
-											<div class="col-auto">
-												<img src="images/modalcard1img1.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard1img2.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard1img3.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard1img4.jpg " class="img-fluid">
-											</div>
-										</div>
-									</div>
 
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-									</div>
+			<!-- real estate modal -->
+			<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl modal-dialog-scrollable">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Real Estate Listings</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+
+
+						<div class="modal-body container">
+							<div class="row justify-content-center">
+								<div class="col-auto">
+									<img src="images/modalcard1img1.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard1img2.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard1img3.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard1img4.jpg " class="img-fluid">
 								</div>
 							</div>
 						</div>
 
-			            <!-- E-commerce platform modal -->
-						<div class="modal fade" id="e-commercemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-xl modal-dialog-scrollable">
-								<div class="modal-content">
+						<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Visit Website</button>
+						</div>
+					</div>
+				</div>
+			</div>
 
-									<div class="modal-header">
-										<h1 class="modal-title fs-5" id="exampleModalLabel">E-commerce Platforms</h1>
-										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>
+			<!-- E-commerce platform modal -->
+			<div class="modal fade" id="e-commerce-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl modal-dialog-scrollable">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">E-commerce Platforms</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
 
 
-									<div class="modal-body container">
-										<div class="row justify-content-center">
-											<div class="col-auto">
-												<img src="images/modalcard3img1.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard3img2.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard3img3.jpg " class="img-fluid">
-											</div>
-											<div class="col-auto">
-												<img src="images/modalcard3img4.jpg " class="img-fluid">
-											</div>
-										</div>
-									</div>
-
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-									</div>
+						<div class="modal-body container">
+							<div class="row justify-content-center">
+								<div class="col-auto">
+									<img src="images/modalcard3img1.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard3img2.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard3img3.jpg " class="img-fluid">
+								</div>
+								<div class="col-auto">
+									<img src="images/modalcard3img4.jpg " class="img-fluid">
 								</div>
 							</div>
 						</div>
 
-			            <!-- modals end -->
-			        </div>
-			    </div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Visit Website</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modals End -->
+		</section>
+<!-- -----------------Projects End ----------------------- -->
+
+
+<!-- ------------------ Tools Start ------------------------ -->
+
+
+		<section id="tools" class="container tools text-center m-auto">
+			<h1 class="text-center">Tools I Use</h1>
+
+			<div class="d-none d-lg-block">
+			<div class=" mt-5">
+				<div class="tools-col">
+					<div id="tools-1" class="col-auto ">
+				        <img width="150" src="images/logo-fe-html5.png" class=" img-fluid"/>
+				        <img width="150" src="images/logo-fe-css3.png" class=" img-fluid"/>
+				        <img width="150" src="images/logo-fe-javascript.png" class=" img-fluid"/>
+				        <img width="150" src="images/logo-fe-bootstrap.png" class=" img-fluid"/>
+
+				    </div>
+					<div class="layer">
+						<h3>Front-End</h3>
+					</div>
+				</div>
+			</div>	
+				<div class=" mt-5">
+				<div class="tools-col">
+					<div id="tools-1" class="col-auto ">
+				       
+				        <img width="150" src="images/logo-mern-mongodb.png" class=" img-fluid" />
+					    <img width="150" src="images/logo-mern-nodejs.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-mern-expressjs.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-mern-react.png" class=" img-fluid"/>
+				        
+				    </div>
+					<div class="layer">
+						<h3>MERN</h3>
+					</div>
+				</div>
+			</div>		
+				<div class=" mt-5">
+				<div class="tools-col">
+					<div id="tools-1" class="col-auto ">
+						<img width="150" src="images/logo-heroku.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-git.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-sublime-text-3.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-postman.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-gitlab-ci-cd.png"  class=" img-fluid"/>
+				        
+				    </div>
+					<div class="layer">
+						<h3>Other Tools</h3>
+					</div>
+				</div>
+				
+			</div>
+			</div>
+			<!-- mobile and ipad size -->
+			<div class="d-lg-none">
+			<div class=" mt-5">
+				<div class="tools-col">
+					<div id="tools-1" class="col-auto ">
+				        <img width="150" src="images/logo-fe-html5.png" class=" img-fluid"/>
+				        <img width="150" src="images/logo-fe-css3.png" class=" img-fluid"/>
+				        <img width="150" src="images/logo-fe-javascript.png" class=" img-fluid"/>
+				        <img width="150" src="images/logo-fe-bootstrap.png" class=" img-fluid"/>
+
+				    </div>
+					<div class="layer">
+						<h3>Front-End</h3>
+					</div>
+				</div>
+			</div>	
+				<div class=" mt-5">
+				<div class="tools-col">
+					<div id="tools-1" class="col-auto ">
+				       
+				        <img width="150" src="images/logo-mern-mongodb.png" class=" img-fluid" />
+					    <img width="150" src="images/logo-mern-nodejs.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-mern-expressjs.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-mern-react.png" class=" img-fluid"/>
+				        
+				    </div>
+					<div class="layer">
+						<h3>MERN</h3>
+					</div>
+				</div>
+			</div>		
+				<div class=" mt-5">
+				<div class="tools-col">
+					<div id="tools-1" class="col-auto ">
+						<img width="150" src="images/logo-heroku.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-git.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-sublime-text-3.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-postman.png" class=" img-fluid"/>
+					    <img width="150" src="images/logo-gitlab-ci-cd.png"  class=" img-fluid"/>
+				        
+				    </div>
+					<div class="layer">
+						<h3>Other Tools</h3>
+					</div>
+				</div>
+				
+			</div>
+			</div>
+		</section>
+<!-- ------------------ Tools End ------------------------ -->
+
+<!-- ------------------ Contacts Start ------------------------ -->
+
+<section id="contacts" class="container text-white text-center pb-5">
+	<h1 class="pt-5">Contact</h1>
+
+		
+		
+
+	<div class="row mt-5">
+		<form class="col-lg-6 bg-transparent p-2">
+			<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Full Name</label>
+			<input type="name" class="form-control" id="exampleFormControlInput1">
+			</div>
+
+			<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Email Address</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" >
 			</div>			
-			<!-- Project page End -->
 
-			<!-- Tools Start -->
-			<div id="tools" class="container">
-				<h3 class="text-center  text-white " >Tools</h3>
-					<div id="core-tools" class="row d-flex flex-md-column  justify-content-center">
-						<div id="tools-1" class="col-auto  d-md-flex justify-content-center img-fluid">
-					        <img width="150" src="images/logo-html5.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-css3.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-javascript.png" class=" img-fluid"/>
-					    </div>
-					    <div id="tools-2" class="col-auto  d-md-flex justify-content-center">
-					        <img width="150" src="images/logo-mongodb.png" class=" img-fluid" />
-					        <img width="150" src="images/logo-nodejs.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-expressjs.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-react.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-heroku.png" class=" img-fluid"/>
-					    </div>
-					    <div id="tools-3" class=" col-auto  d-md-flex justify-content-center img-fluid">
-					        <img width="150" src="images/logo-git.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-sublime-text-3.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-postman.png" class=" img-fluid"/>
-					        <img width="150" src="images/logo-gitlab-ci-cd.png"  class=" img-fluid"/>
-					    </div>
-
-					</div>
+			<div class="mb-3">
+			<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 			</div>
-			<!-- Tools End -->
-			
-			<!-- Contact Start -->
-			<div id="contacts" class="container text-white text-center">
-				<h3>Contact</h3>
-					<div class="row mt-5">
-						<form class="col-lg-6 bg-transparent p-2 text-white ">
-							<div class="mb-3">
-							<label for="exampleFormControlInput1" class="form-label">Full Name</label>
-							<input type="name" class="form-control" id="exampleFormControlInput1">
-							</div>
 
-							<div class="mb-3">
-							<label for="exampleFormControlInput1" class="form-label">Email Address</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1" >
-							</div>			
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#messageBox1">
+			  Submit	
+			</button>
 
-							<div class="mb-3">
-							<label for="exampleFormControlTextarea1" class="form-label">Message</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-							</div>
+			<!-- Modal -->
+			<div class="modal fade" id="messageBox1" tabindex="-1" aria-labelledby="sample" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content text-dark">
 
-							<!-- Button trigger modal -->
-							<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#messageBox1">
-							  Submit
-							</button>
-
-							<!-- Modal -->
-							<div class="modal fade" id="messageBox1" tabindex="-1" aria-labelledby="sample" aria-hidden="true">
-								<div class="modal-dialog">
-									<div class="modal-content text-dark">
-
-										<div class="modal-header">
-											<h1 class="modal-title fs-5" id="sample">Message</h1>
-											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-										</div>
-
-
-										<div class="modal-body container ">
-											<p>Thank you for your contacting us. We will be in touch with you shortly.</p>
-										</div>
-
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-										</div>
-									</div>
-								</div>
-							</div>							
-
-						</form>
-
-						<div class="col-lg-6 mt-5 ">
-						<div id="tools-3" class="d-flex justify-content-center">
-							<a href="https://www.facebook.com/" class="contact-icons col-auto mx-3  " target="_blank">
-						    <img  width="100" src="images/facebook.png" class="img-fluid"/>
-						    </a>
-						    <a href="https://www.linkedin.com/" class="contact-icons col-auto mx-3 " target="_blank">
-						    <img  width="100" src="images/linkedin.png" class="img-fluid"/>
-						    </a>
-						    <a href="https://www.instagram.com/" class="contact-icons col-auto mx-3" target="_blank">
-						    <img  width="100" src="images/instagram.png" class="img-fluid"/>
-						    </a>
-						    <a href="https://twitter.com/" class="contact-icons col-auto mx-3" target="_blank">
-						    <img width="100" src="images/twitter.png" class="img-fluid"/>
-						    </a>
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="sample">Message</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
+
+
+						<div class="modal-body container ">
+							<p>Thank you for your contacting us. We will be in touch with you shortly.</p>
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 						</div>
 					</div>
-			</div>
-			<!-- Contact End -->
-
-			<!-- Footer Start-->			
-			<footer class="container footer bg-primary p-2">
-				<div class="container mt-2 text-white">
-					<p class="text-center mb-0">Herben Manzon | Web Developer</p>
-					<p class="text-center">All Rights Reserved.</p>
-
 				</div>
-			</footer>
-			<!-- Footer End-->
+			</div>							
 
+		</form>
+
+		<div class="col-lg-6 mt-5 text-center">
+			<h5 class="">Visit us on:</h5>
+			<div id="soc-med" class="d-flex justify-content-center mt-2">
+					
+					<a href="https://www.facebook.com/" class="contact-icons col-auto mx-3  " target="_blank">
+				    <img  width="100" src="images/facebook.png" class="img-fluid"/>
+				    </a>
+				    <a href="https://www.linkedin.com/" class="contact-icons col-auto mx-3 " target="_blank">
+				    <img  width="100" src="images/linkedin.png" class="img-fluid"/>
+				    </a>
+				    <a href="https://www.instagram.com/" class="contact-icons col-auto mx-3" target="_blank">
+				    <img  width="100" src="images/instagram.png" class="img-fluid"/>
+				    </a>
+				    <a href="https://twitter.com/" class="contact-icons col-auto mx-3" target="_blank">
+				    <img width="100" src="images/twitter.png" class="img-fluid"/>
+				    </a>
+			</div>
+		</div>
+
+
+		
+	</div>				
+</section>
+
+<!-- ------------------ Contacts End ------------------------ -->
+<!-- ------------------ Footer Start ------------------------ -->
+
+<footer class="container-fluid bg-primary p-2">
+	<div class="container mt-2 text-white">
+		<p class="text-center mb-0">Herben Manzon | Web Developer</p>
+		<p class="text-center mb-0">All Rights Reserved.</p>
+
+	</div>
+</footer>
+
+<!-- ------------------ Footer End ------------------------ -->
+		
 		<!-- BootStrap Script -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	</body>
